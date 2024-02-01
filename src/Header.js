@@ -3,8 +3,9 @@ function Header() {
         <header>
             <nav>
         <div className ="border-b-2 border-black  bg-orange-100 px-4 lg:px-6 py-2.5 ">
+            
         <div className ="flex flexbox justify-center items-center ">
-            <img src="//elliothasacoolstore.com/cdn/shop/files/bgstar_30x.png?v=1644751126" 
+        <img src="//elliothasacoolstore.com/cdn/shop/files/bgstar_30x.png?v=1644751126" 
             srcset="//elliothasacoolstore.com/cdn/shop/files/bgstar_30x.png?v=1644751126 1x, //elliothasacoolstore.com/cdn/shop/files/bgstar_30x@2x.png?v=1644751126 2x, //elliothasacoolstore.com/cdn/shop/files/bgstar_30x@3x.png?v=1644751126 3x" 
             alt="elliothasacoolstore"></img>
             <div className="flex  lg:order-2">
@@ -24,7 +25,7 @@ function Header() {
         </div>
         </nav>  
         </header>
-    )
+    );
 }
 
 export default Header

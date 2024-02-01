@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        marquee: 'marquee 20s linear infinite',
-        marquee2: 'marquee2 20s linear infinite',
-        marquee3: 'marquee3 15s linear infinite',
-        marquee4: 'marquee4 15s linear infinite',
+        marquee: 'marquee 30s linear infinite',
+        marquee2: 'marquee2 30s linear infinite',
+        marquee3: 'marquee3 20s linear infinite',
+        marquee4: 'marquee4 20s linear infinite',
       },
       keyframes: {
         marquee: {
