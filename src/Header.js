@@ -2,9 +2,8 @@ import React from "react";
 
 function Header() {
   const currentHour = new Date().getHours();
-  const isNightTime = currentHour >= 18 || currentHour <= 6; // Assume night time is between 6 PM and 6 AM
+  const isNightTime = currentHour >= 18 || currentHour <= 6;
 
-  // Define background color and text color based on night time
   const backgroundColor = isNightTime ? "bg-gray-800" : "bg-orange-100";
   const textColor = isNightTime ? "text-white" : "text-black";
 

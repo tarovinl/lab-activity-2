@@ -15,23 +15,22 @@ function Menu() {
     season = "winter";
   }
 
-  // Assign the appropriate background color based on the season
   let backgroundColor = "";
   switch (season) {
     case "spring":
-      backgroundColor = "bg-green-300"; // Green for spring
+      backgroundColor = "bg-green-300";
       break;
     case "summer":
-      backgroundColor = "bg-yellow-300"; // Yellow for summer
+      backgroundColor = "bg-yellow-300";
       break;
     case "autumn":
-      backgroundColor = "bg-orange-300"; // Orange for autumn
+      backgroundColor = "bg-orange-300";
       break;
     case "winter":
-      backgroundColor = "bg-blue-300"; // Blue for winter
+      backgroundColor = "bg-blue-300";
       break;
     default:
-      backgroundColor = "bg-gray-300"; // Default background color
+      backgroundColor = "bg-gray-300";
   }
 
   return (
